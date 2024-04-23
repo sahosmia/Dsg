@@ -1,0 +1,10 @@
+export {default as HomePage} from "../pages/HomePage";
+export {default as IndustriesPage} from "../pages/IndustriesPage";
+export {default as IndustriesDetailsPage} from "../pages/IndustriesDetailsPage";
+export {default as CapabilitiesPage} from "../pages/CapabilitiesPage";
+export {default as CapabilitiesDetailsPage} from "../pages/CapabilitiesDetailsPage";
+export {default as OurFirmPage} from "../pages/OurFirmPage";
+export {default as PrivacyPolicyPage} from "../pages/PrivacyPolicyPage";
+export {default as ContactPage} from "../pages/ContactPage";
+export {default as CookiesPolicyPage} from "../pages/CookiesPolicyPage";
+export {default as ErrorPage} from "../pages/ErrorPage";

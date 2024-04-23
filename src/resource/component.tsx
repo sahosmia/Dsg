@@ -1,0 +1,30 @@
+export {default as Header} from "../components/layouts/Header"
+export {default as Footer} from "../components/layouts/Footer"
+export {default as Cta} from "../components/layouts/Cta"
+
+export {default as HeroHome} from "../components/Hero/HeroHome"
+export {default as HeroIndustry} from "../components/Hero/HeroIndustry"
+export {default as HeroIndustryCapability} from "../components/Hero/HeroIndustryCapability"
+export {default as HeroOurFirm} from "../components/Hero/HeroOurFirm"
+
+export {default as CapabilityList} from "../components/Lists/Capability/CapabilityList"
+export {default as IndustriesList} from "../components/Lists/Industries/IndustriesList"
+export {default as LeaderShipList} from "../components/Lists/LeaderShips/LeaderShipList"
+export {default as SolutionsList} from "../components/Lists/Solutions/SolutionsList"
+
+export {default as IndustrieServeHome} from "../components/PageComponents/Home/IndustrieServeHome"
+export {default as SolutionsExploreHome} from "../components/PageComponents/Home/SolutionsExploreHome"
+export {default as CorporateResponsibility} from "../components/PageComponents/OurFirm/CorporateResponsibility"
+export {default as OurFirmLiderShip} from "../components/PageComponents/OurFirm/OurFirmLiderShip"
+export {default as Counter} from "../components/PageComponents/OurFirm/Counter/Counter"
+
+export {default as PrimaryButton} from "../components/tools/Button/PrimaryButton"
+export {default as SectionHeading} from "../components/tools/Heading/SectionHeading"
+export {default as HeroCard} from "../components/tools/HeroCard/HeroCard"
+export {default as SectionParagraf} from "../components/tools/Paragraf/SectionParagraf"
+export {default as SectionHeadingContent} from "../components/tools/SectionHeadingContent"
+
+export {default as BottomBanner} from "../components/BottomBanner"
+export {default as CapabilitesIndustries} from "../components/CapabilitesIndustries"
+export {default as Capabilities} from "../components/Capabilities"
+export {default as Industries} from "../components/Industries"

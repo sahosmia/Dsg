@@ -1,0 +1,37 @@
+.hero_card {
+  background: white;
+  padding: 30px;
+  position: relative;
+
+}
+
+.hero_card::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: var(--primary);
+}
+
+.hero_card h6 {
+  font: 500 18px var(--font-satoshi);
+  line-height: 24px;
+  color: var(--primary);
+  padding-bottom: 20px;
+}
+
+
+.hero_card h2 {
+  font: 900 32px var(--font-satoshi);
+  line-height: 43px;
+  color: var(--black-light)
+}
+
+.hero_card p {
+  padding-top: 10px;
+  font: 500 18px var(--font-satoshi);
+  line-height: 24px;
+  color: var(--ass);
+}

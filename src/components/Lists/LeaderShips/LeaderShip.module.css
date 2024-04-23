@@ -1,0 +1,25 @@
+.leadership_item {
+  margin-bottom: 50px;
+  display: inline-block;
+  width: 100%;
+}
+
+/* title  */
+.leadership_title {
+  font: 700 24px var(--font-satoshi);
+  color: var(--black-light);
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.leadership_designation {
+  font: 500 20px var(--font-satoshi);
+  padding-bottom: 10px;
+  color: var(--black-light);
+}
+
+.leadership_sector {
+  color: var(--secondary);
+  font: 700 18px var(--font-satoshi);
+  padding-bottom: 15px;
+}
