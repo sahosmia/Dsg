@@ -11,7 +11,7 @@ export const getIndustryitem = (id: string | undefined) => {
       }
       throw new Response("error", { status: 404 });
     } catch (error) {
-      throw new Response(error, { status: 404 });
+      throw new Response("data not found", { status: 404 });
     }
   }
   throw new Response("Somthing is error", { status: 404 });
@@ -29,7 +29,7 @@ export const getCapacityitem = (id: string | undefined) => {
       }
       throw new Response("error", { status: 404 });
     } catch (error) {
-      throw new Response(error, { status: 404 });
+      throw new Response("data not found", { status: 404 });
     }
   }
   throw new Response("Somthing is error", { status: 404 });
