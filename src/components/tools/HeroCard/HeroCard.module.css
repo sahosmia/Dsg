@@ -16,7 +16,7 @@
 }
 
 .hero_card h6 {
-  font: 500 18px var(--font-satoshi);
+  font: 700 18px var(--font-satoshi);
   line-height: 24px;
   color: var(--primary);
   padding-bottom: 20px;
@@ -30,8 +30,8 @@
 }
 
 .hero_card p {
-  padding-top: 10px;
-  font: 500 18px var(--font-satoshi);
+  padding-top: 20px;
+  font: 400 18px var(--font-satoshi);
   line-height: 24px;
   color: var(--ass);
 }

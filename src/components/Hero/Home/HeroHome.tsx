@@ -1,3 +1,4 @@
+import "./hero-home.css"
 const HeroHome = () => {
   return (
     <section className="home-hero position-relative">

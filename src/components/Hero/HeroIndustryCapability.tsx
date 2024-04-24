@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import HeroCard from "../tools/HeroCard/HeroCard";
+import { HeroIndustryCapabilityType } from "../../types";
 
-const HeroIndustryCapability = ({ title, content, bg }) => {
+const HeroIndustryCapability = ({ title, content, bg, subtitle } : HeroIndustryCapabilityType) => {
   return (
     <section className=" position-relative ">
       <div
@@ -23,10 +24,10 @@ const HeroIndustryCapability = ({ title, content, bg }) => {
                     <Link to="/">Home / </Link>
                   </li>
                   <li>
-                    <Link to="/industries">INDUSTRIES / </Link>
+                    <Link className="text-uppercase" to="/industries">{subtitle} / </Link>
                   </li>
                   <li>
-                    <Link to="">Technology, Media & Telecommunications</Link>
+                    <Link to="">{title}</Link>
                   </li>
                 </ul>
               </div>
@@ -36,7 +37,7 @@ const HeroIndustryCapability = ({ title, content, bg }) => {
            
 
             <div className="row py-20">
-              <HeroCard subtitle="Industries" title={title}  />
+              <HeroCard subtitle={subtitle} title={title}  content={content}/>
             </div>
           </div>
         </div>

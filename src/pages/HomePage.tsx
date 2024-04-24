@@ -1,7 +1,6 @@
 import {
   CapabilitesIndustries,
   Cta,
-  Header,
   HeroHome,
   IndustrieServeHome,
   SolutionsExploreHome,
@@ -15,7 +14,6 @@ const HomePage = () => {
 
     <title>Home - {process.env.REACT_APP_NAME}</title>
     </Helmet>
-      <Header />
       <HeroHome />
       <CapabilitesIndustries />
       <SolutionsExploreHome />

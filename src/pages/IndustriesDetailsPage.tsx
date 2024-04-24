@@ -2,7 +2,6 @@ import { useParams } from "react-router-dom";
 import { getIndustryitem } from "../util";
 import {
   Cta,
-  Header,
   HeroIndustryCapability,
   SectionHeading,
   SectionParagraf,
@@ -21,13 +20,10 @@ const IndustriesDetailsPage = () => {
           {data.title} - Industries - {process.env.REACT_APP_NAME}
         </title>
       </Helmet>
-      <Header />
       <HeroIndustryCapability
         bg={data.banner}
         title={data.title}
-        content=" We are dedicated to delivering measurable results and driving
-                  growth and success for our clients across a wide range of
-                  industries."
+        subtitle="Industries"
       />
 
       <section className="py-20">
@@ -67,7 +63,7 @@ const IndustriesDetailsPage = () => {
                 content and advertising to users based on their preferences and
                 behavior. We also helped a telecommunications provider
                 streamline their customer service operations by implementing a
-                chatbot solution that provided instant support to customers.{" "}
+                chatbot solution that provided instant support to customers.
               </SectionParagraf>
               <SectionParagraf>
                 By working closely with our clients and leveraging our technical

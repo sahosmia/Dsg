@@ -3,24 +3,27 @@ import {
   CorporateResponsibility,
   Counter,
   Cta,
-  Header,
   HeroOurFirm,
-  OurFirmLiderShip,
+  OurFirmLeaderShip,
 } from "../resource/component";
 
+import "aos/dist/aos.css"
+import { leaderShips } from "../data/dummy";
+
+
 const OurFirmPage = () => {
+
   return (
     <>
       
       <Helmet>
         <title>Our Firm - {process.env.REACT_APP_NAME}</title>
       </Helmet>
-      <Header />
       <HeroOurFirm />
       <Counter />
       <OurFirmContent />
       <OurFirmQuite />
-      <OurFirmLiderShip />
+      <OurFirmLeaderShip quantity={leaderShips.length}/>
       <CorporateResponsibility />
       <Cta title="Our Solutions" btnText="View Solutions" url="#" />
     </>
@@ -72,7 +75,7 @@ const OurFirmContent = () => {
 
 const OurFirmQuite = () => {
   return (
-    <section>
+    <section data-aos="fade-up" >
       <div className="container">
         <div className="our-firm-quite">
           <div className="row">

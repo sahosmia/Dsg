@@ -2,10 +2,10 @@ import { leaderShips } from "../../../data/dummy";
 import { LeaderShipItemType } from "../../../types";
 import myStyle from "./LeaderShip.module.css";
 
-const LeaderShipList = () => {
+const LeaderShipList = ({quantity} : {quantity:number}) => {
   return (
     <div className="row">
-      {leaderShips.map((item) => (
+      {leaderShips.slice(0,quantity).map((item) => (
         <LeaderShipItem key={item.id} leaderShip={item} />
       ))}
     </div>

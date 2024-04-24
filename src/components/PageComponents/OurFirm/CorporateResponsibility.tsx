@@ -6,7 +6,7 @@ import Corporate3 from "../../../assets/corporate/3.png";
 
 const CorporateResponsibility = () => {
   return (
-    <section className="light-white-bg py-20">
+    <section data-aos="fade-up"  className="light-white-bg py-20">
       <div className="container">
         <div className="row pb-3">
           <SectionHeading>Corporate Responsibility</SectionHeading>

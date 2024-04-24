@@ -3,7 +3,6 @@ import bgHero from "../assets/hero/capability.png";
 import {
   BottomBanner,
   CapabilityList,
-  Header,
   HeroIndustry,
 } from "../resource/component";
 import { Helmet } from "react-helmet-async";
@@ -15,7 +14,6 @@ const CapabilitiesPage = () => {
     <Helmet>
       <title>Capabilities - {process.env.REACT_APP_NAME}</title>
     </Helmet>
-      <Header />
       <HeroIndustry
         bg={bgHero}
         title="Our Capabilities"

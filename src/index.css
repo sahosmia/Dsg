@@ -72,92 +72,6 @@ ol {
 }
 /* font XX */
 
-.pt-20,
-.p-20,
-.py-20 {
-  padding-top: 80px;
-}
-.pr-20,
-.p-20,
-.px-20 {
-  padding-right: 80px;
-}
-.pb-20,
-.p-20,
-.py-20 {
-  padding-bottom: 80px;
-}
-.pl-20,
-.p-20,
-.px-20 {
-  padding-left: 80px;
-}
-
-@media only screen and (max-width: 768px) {
-  .pt-20,
-  .p-20,
-  .py-20 {
-    padding-top: 60px;
-  }
-
-  .pr-20,
-  .p-20,
-  .px-20 {
-    padding-right: 60px;
-  }
-
-  .pb-20,
-  .p-20,
-  .py-20 {
-    padding-bottom: 60px;
-  }
-
-  .pl-20,
-  .p-20,
-  .px-20 {
-    padding-left: 60px;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  .pt-20,
-  .p-20,
-  .py-20 {
-    padding-top: 40px;
-  }
-
-  .pr-20,
-  .p-20,
-  .px-20 {
-    padding-right: 40px;
-  }
-
-  .pb-20,
-  .p-20,
-  .py-20 {
-    padding-bottom: 40px;
-  }
-
-  .pl-20,
-  .p-20,
-  .px-20 {
-    padding-left: 40px;
-  }
-}
-
-.p-80 {
-  padding: 320px;
-}
-
-.py-80 {
-  padding-top: 320px;
-  padding-bottom: 320px;
-}
-.px-80 {
-  padding-left: 320px;
-  padding-right: 320px;
-}
-
 .section-heading,
 .cta-title {
   font-weight: 700;
@@ -233,81 +147,8 @@ ol {
 }
 /* our firm quite  X*/
 
-/* Navbar  */
 
-.logo {
-  width: 100px;
-}
 
-.navbar-toggler {
-  border: none;
-}
-
-.navbar-toggler:focus {
-  box-shadow: none;
-}
-
-.nav-link {
-  color: white;
-}
-
-.nav-link:focus,
-.nav-link:hover {
-  color: white;
-  opacity: 0.9;
-}
-
-.navbar-nav .nav-link.active,
-.navbar-nav .nav-link.show {
-  color: white;
-  opacity: 0.9;
-}
-
-.navbar-nav {
-  gap: 30px;
-}
-
-.navbar-nav .dropdown-menu {
-  /* background: transparent; */
-  border: none;
-  background: black;
-  border-radius: 5px;
-  padding: 10px;
-}
-
-.dropdown-item {
-  padding: 12px;
-  color: white;
-}
-
-.dropdown-menu[data-bs-popper] {
-  left: -75%;
-}
-
-.navbar-expand-lg .navbar-nav .dropdown-menu {
-  width: 300%;
-}
-
-.dropdown-item:focus,
-.dropdown-item:hover {
-  background-color: transparent;
-  color: white;
-  opacity: 0.8;
-}
-
-.offcanvas {
-  background-color: var(--ass);
-}
-
-.bg-body-tertiary {
-  background-color: transparent !important;
-}
-
-.navbar-toggler-icon {
-  background-image: url("./assets/menu.svg");
-}
-
-/* navbar end  */
 
 .header-contact-button {
   border: 2px solid;
@@ -432,19 +273,14 @@ ol {
 /* Extra Small Devices (phones) */
 @media (max-width: 575.98px) {
   /* CSS styles for extra small devices go here */
-  .logo {
-    width: 70px;
-  }
+ 
   .hero-heading {
     padding-top: 200px;
     padding-bottom: 180px;
     margin: 0 auto;
   }
 
-  .navbar-nav .dropdown-menu {
-    background: transparent;
-    border: none;
-  }
+
 }
 
 /* Small Devices (landscape phones) */
@@ -452,16 +288,7 @@ ol {
   /* CSS styles for small devices go here */
 }
 
-/* Medium Devices (tablets) */
-@media (max-width: 768px) {
-  /* CSS styles for medium devices go here */
 
-  .navbar-nav .dropdown-menu {
-    /* background: transparent; */
-    background: transparent;
-    width: 100%;
-  }
-}
 
 /* Large Devices (desktops) */
 @media (min-width: 992px) {
@@ -473,10 +300,6 @@ ol {
   }
 }
 
-/* Extra Large Devices (large desktops) */
-@media (min-width: 1200px) {
-  /* CSS styles for extra large devices go here */
-}
 
 /*=========== Buttton  ============*/
 .primary-button {
@@ -498,71 +321,6 @@ ol {
 }
 /*X========== Buttton  ===========X*/
 
-/* Solutions  */
 
-/* ================================================= Done ============================================== */
 
-.bottom-banner {
-  padding: 200px 80px;
-  position: relative;
-  z-index: 1;
-}
-.bottom-banner::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: -4;
-  top: 0;
-  left: 0;
-}
-.bottom-banner h3 {
-  color: var(--white);
-  padding-bottom: 30px;
-  font-size: 36px;
-  font-weight: 700;
-  font-family: var(--font-satoshi);
-  line-height: 48px;
-}
 
-/* corporate-responsibility */
-.corporate-responsibility h2 {
-  font: 700 24px var(--font-satoshi);
-  color: var(--black-light);
-  padding-bottom: 10px;
-}
-.corporate-responsibility p {
-  color: var(--ass);
-  font: 500 18px var(--font-satoshi);
-}
-/* corporate-responsibility X */
-
-/* Footer  */
-footer {
-  color: white;
-  font-family: var(--font-satoshi);
-}
-footer p {
-  font-size: 16px;
-  line-height: 21px;
-  color: var(--white);
-  max-width: 321px;
-}
-footer h5 {
-  padding-bottom: 20px;
-  font-weight: 700;
-}
-footer ul {
-  padding-left: 0;
-}
-footer ul li a {
-  color: var(--white);
-  padding-bottom: 10px;
-  display: inline-block;
-}
-footer a {
-  color: var(--white);
-  display: inline-block;
-}
-/* Footer XXXX */

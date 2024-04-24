@@ -20,7 +20,7 @@ export const getIndustryitem = (id: string | undefined) => {
 
 
 
-export const getCapacityitem = (id: string | undefined) => {
+export const getCapabilityItem = (id: string | undefined) => {
   if (typeof id != "undefined") {
     try {
       const data = solutions.find((item) => item.id === parseInt(id));

@@ -13,7 +13,7 @@
 }
 
 .leadership_designation {
-  font: 500 20px var(--font-satoshi);
+  font: 500 18px var(--font-satoshi);
   padding-bottom: 10px;
   color: var(--black-light);
 }
@@ -21,5 +21,5 @@
 .leadership_sector {
   color: var(--secondary);
   font: 700 18px var(--font-satoshi);
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }

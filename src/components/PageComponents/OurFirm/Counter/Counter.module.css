@@ -26,7 +26,7 @@
 }
 
 
-.item h5{
+.item .counter_number{
   font: 700 24px var(--font-satoshi);
   line-height: 32px;
 }

@@ -14,3 +14,7 @@ export {default as Leader8} from "../assets/teams/8.png";
 export {default as Leader9} from "../assets/teams/9.png";
 export {default as Leader10} from "../assets/teams/10.png";
 export {default as Leader11} from "../assets/teams/11.png";
+
+
+
+export {default as HelpImage} from "../assets/help.png";

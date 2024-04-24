@@ -62,6 +62,44 @@ export const solutions = [
       "Establish credibility, and provide an excellent digital experience for your customers.",
     image: SolutionsImage1,
     banner: SolutionsBanner1,
+    solutionList: [
+      {
+        id: 1,
+        title: "Mobile App Design",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 2,
+        title: "IOS Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 3,
+        title: "Android Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 4,
+        title: "Hybrid Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 5,
+        title: "Internet of things (IoT)",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 6,
+        title: "Wearables",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+    ],
   },
   {
     id: 2,
@@ -70,6 +108,44 @@ export const solutions = [
       "Reach your customers on mobile with custom iOS and Android mobile application.",
     image: SolutionsImage2,
     banner: SolutionsBanner2,
+    solutionList: [
+      {
+        id: 1,
+        title: "Mobile App Design",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 2,
+        title: "IOS Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 3,
+        title: "Android Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 4,
+        title: "Hybrid Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 5,
+        title: "Internet of things (IoT)",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 6,
+        title: "Wearables",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+    ],
   },
   {
     id: 3,
@@ -78,6 +154,44 @@ export const solutions = [
       "Improve sales and marketing performance with our marketing experts.",
     image: SolutionsImage3,
     banner: SolutionsBanner3,
+    solutionList: [
+      {
+        id: 1,
+        title: "Mobile App Design",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 2,
+        title: "IOS Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 3,
+        title: "Android Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 4,
+        title: "Hybrid Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 5,
+        title: "Internet of things (IoT)",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 6,
+        title: "Wearables",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+    ],
   },
   {
     id: 4,
@@ -86,6 +200,44 @@ export const solutions = [
       "Protect your organisations security today with our industry leading AI security solutions.",
     image: SolutionsImage4,
     banner: SolutionsBanner4,
+    solutionList: [
+      {
+        id: 1,
+        title: "Mobile App Design",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 2,
+        title: "IOS Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 3,
+        title: "Android Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 4,
+        title: "Hybrid Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 5,
+        title: "Internet of things (IoT)",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 6,
+        title: "Wearables",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+    ],
   },
   {
     id: 5,
@@ -94,6 +246,44 @@ export const solutions = [
       "Increase your organisations efficiency, productivity and decision making with artificial intelligence.",
     image: SolutionsImage5,
     banner: SolutionsBanner5,
+    solutionList: [
+      {
+        id: 1,
+        title: "Mobile App Design",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 2,
+        title: "IOS Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 3,
+        title: "Android Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 4,
+        title: "Hybrid Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 5,
+        title: "Internet of things (IoT)",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 6,
+        title: "Wearables",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+    ],
   },
   {
     id: 6,
@@ -102,6 +292,44 @@ export const solutions = [
       "`Analyse and interpret large amounts of data, gain insights and make data-driven decisions,",
     image: SolutionsImage6,
     banner: SolutionsBanner6,
+    solutionList: [
+      {
+        id: 1,
+        title: "Mobile App Design",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 2,
+        title: "IOS Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 3,
+        title: "Android Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 4,
+        title: "Hybrid Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 5,
+        title: "Internet of things (IoT)",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 6,
+        title: "Wearables",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+    ],
   },
   {
     id: 7,
@@ -110,6 +338,44 @@ export const solutions = [
       "Our digital law experts will ensure you are compliant across all areas of operation.",
     image: SolutionsImage7,
     banner: SolutionsBanner7,
+    solutionList: [
+      {
+        id: 1,
+        title: "Mobile App Design",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 2,
+        title: "IOS Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 3,
+        title: "Android Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 4,
+        title: "Hybrid Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 5,
+        title: "Internet of things (IoT)",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 6,
+        title: "Wearables",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+    ],
   },
   {
     id: 8,
@@ -118,6 +384,44 @@ export const solutions = [
       "Hire, attract and retain game-changing digital talent for your business.",
     image: SolutionsImage8,
     banner: SolutionsBanner8,
+    solutionList: [
+      {
+        id: 1,
+        title: "Mobile App Design",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 2,
+        title: "IOS Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 3,
+        title: "Android Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 4,
+        title: "Hybrid Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 5,
+        title: "Internet of things (IoT)",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 6,
+        title: "Wearables",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+    ],
   },
   {
     id: 9,
@@ -126,6 +430,44 @@ export const solutions = [
       "Improve your organisations security, efficiency and productivity with effective cloud platforms.",
     image: SolutionsImage9,
     banner: SolutionsBanner9,
+    solutionList: [
+      {
+        id: 1,
+        title: "Mobile App Design",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 2,
+        title: "IOS Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 3,
+        title: "Android Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 4,
+        title: "Hybrid Development",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 5,
+        title: "Internet of things (IoT)",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+      {
+        id: 6,
+        title: "Wearables",
+        content:
+          "Enable quicker time-to-value for your organisation with a holistic approach to modernisation.",
+      },
+    ],
   },
 ];
 
