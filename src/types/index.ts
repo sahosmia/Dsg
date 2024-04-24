@@ -1,5 +1,7 @@
 import { ReactNode } from "react";
 
+export type HeroIndustryType = { bg: string; title: string; content: string };
+
 export type LeaderShipItemType = {
   leaderShip: {
     id: number;
@@ -9,11 +11,24 @@ export type LeaderShipItemType = {
     photo: string;
   };
 };
+
+export type BottomBannerType = {
+  bg: string;
+  title: string;
+  btnText: string;
+  url: string;
+};
+
 export type HeroIndustryCapabilityType = {
   subtitle: string;
   title: string;
   content?: string;
   bg: string;
+};
+
+export type SectionHeadingType = {
+  children: ReactNode;
+  isWhite?: boolean;
 };
 
 export type CtaType = {

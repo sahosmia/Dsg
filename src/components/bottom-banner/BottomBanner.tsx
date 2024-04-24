@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import "./bottom-banner.css"
+import { BottomBannerType } from "../../types";
 
-const BottomBanner = ({bg, title, btnText, url}) => {
+const BottomBanner = ({bg, title, btnText, url}:BottomBannerType) => {
   return (
     <section className="py-20">
       <div className="container">

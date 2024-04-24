@@ -1,4 +1,6 @@
-const HeroIndustry = ({bg, title, content}) => {
+import { HeroIndustryType } from "../../types";
+
+const HeroIndustry = ({bg, title, content}:HeroIndustryType) => {
   return (
     <section className=" position-relative ">
       <div
