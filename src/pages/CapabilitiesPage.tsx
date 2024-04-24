@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import bg from "../assets/banner/capability.png";
 import bgHero from "../assets/hero/capability.png";
 import {
@@ -7,13 +8,26 @@ import {
 } from "../resource/component";
 import { Helmet } from "react-helmet-async";
 
-
 const CapabilitiesPage = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate an API call
+    const time = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+
+    return clearTimeout(time);
+  }, []);
+
+  if (isLoading) {
+    return <h1>loading...</h1>;
+  }
   return (
     <>
-    <Helmet>
-      <title>Capabilities - {process.env.REACT_APP_NAME}</title>
-    </Helmet>
+      <Helmet>
+        <title>Capabilities - {process.env.REACT_APP_NAME}</title>
+      </Helmet>
       <HeroIndustry
         bg={bgHero}
         title="Our Capabilities"

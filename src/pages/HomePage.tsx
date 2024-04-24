@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import {
   CapabilitesIndustries,
   Cta,
@@ -8,6 +9,22 @@ import {
 import { Helmet } from "react-helmet-async";
 
 const HomePage = () => {
+
+   const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate an API call
+   const time = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+
+    return clearTimeout(time)
+  }, []);
+
+  if (isLoading) {
+    return <h1>loading...</h1>;
+  }
+  
   return (
     <>
     <Helmet>

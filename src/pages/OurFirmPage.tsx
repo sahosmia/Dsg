@@ -7,11 +7,16 @@ import {
   OurFirmLeaderShip,
 } from "../resource/component";
 
-import "aos/dist/aos.css"
 import { leaderShips } from "../data/dummy";
-
+import useLoading from "../hook/useLoading";
+import Loading from "../components/Loading";
 
 const OurFirmPage = () => {
+ const {isLoading} = useLoading();
+
+  if (isLoading) {
+    return <Loading/>;
+  }
 
   return (
     <>
