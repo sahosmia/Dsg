@@ -70,9 +70,9 @@ const Header = () => {
                    
                     
                     <li className="w-50">
-                      <a className="dropdown-item view-all" href="/capabilities">
+                      <Link className="dropdown-item view-all" to="/capabilities">
                         View All Capabilities
-                      </a>
+                      </Link>
                     </li>
                
                   </div>
@@ -102,9 +102,9 @@ const Header = () => {
                     ))}
                                       
                     <li className="w-50">
-                      <a className="dropdown-item view-all" href="/industries">
+                      <Link className="dropdown-item view-all" to="/industries">
                         View All Industries
-                      </a>
+                      </Link>
                     </li>
                     
                   </div>
