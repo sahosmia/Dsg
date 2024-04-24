@@ -8,6 +8,7 @@ import {
   SectionParagraf,
   SolutionsExploreHome,
 } from "../resource/component";
+import { Helmet } from "react-helmet-async";
 
 const IndustriesDetailsPage = () => {
   const { industrieId } = useParams();
@@ -15,6 +16,11 @@ const IndustriesDetailsPage = () => {
 
   return (
     <>
+      <Helmet>
+        <title>
+          {data.title} - Industries - {process.env.REACT_APP_NAME}
+        </title>
+      </Helmet>
       <Header />
       <HeroIndustryCapability
         bg={data.banner}

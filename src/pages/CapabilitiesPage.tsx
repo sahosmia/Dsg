@@ -6,11 +6,15 @@ import {
   Header,
   HeroIndustry,
 } from "../resource/component";
+import { Helmet } from "react-helmet-async";
 
 
 const CapabilitiesPage = () => {
   return (
     <>
+    <Helmet>
+      <title>Capabilities - {process.env.REACT_APP_NAME}</title>
+    </Helmet>
       <Header />
       <HeroIndustry
         bg={bgHero}

@@ -5,7 +5,7 @@ const Counter = () => {
       <div className="container">
         <div className="row gap-4 gap-lg-0">
           {counters.map((c) => (
-            <div className={`col-lg-3 ${counterStyle.item}`}>
+            <div key={c.title} className={`col-lg-3 ${counterStyle.item}`}>
               <h5>{c.count}+</h5>
               <span>{c.title}</span>
             </div>

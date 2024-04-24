@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import {
   CorporateResponsibility,
   Counter,
@@ -10,6 +11,10 @@ import {
 const OurFirmPage = () => {
   return (
     <>
+      
+      <Helmet>
+        <title>Our Firm - {process.env.REACT_APP_NAME}</title>
+      </Helmet>
       <Header />
       <HeroOurFirm />
       <Counter />
@@ -17,7 +22,6 @@ const OurFirmPage = () => {
       <OurFirmQuite />
       <OurFirmLiderShip />
       <CorporateResponsibility />
-
       <Cta title="Our Solutions" btnText="View Solutions" url="#" />
     </>
   );

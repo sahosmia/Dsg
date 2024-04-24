@@ -1,10 +1,14 @@
 import { useRouteError } from "react-router-dom";
 import { Footer, Header } from "../resource/component";
+import { Helmet } from "react-helmet-async";
 
 const ErrorPage = () => {
   const error = useRouteError();
   return (
     <>
+    <Helmet>
+      <title>Error - {process.env.REACT_APP_NAME}</title>
+    </Helmet>
       <Header />
       <div id="error-page" className="p-20">
         <h1>Oops!</h1>
