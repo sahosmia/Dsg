@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import bg from "../assets/banner/capability.png";
 import bgHero from "../assets/hero/capability.png";
 import {
