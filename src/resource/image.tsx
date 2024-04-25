@@ -1,5 +1,5 @@
 export {default as WhiteLogo} from "../assets/logo/white-logo.png";
-export {default as HomeHero} from "../assets/hero/home.png";
+// export {default as HomeHero} from "../assets/hero/home.png";
 
 
 
