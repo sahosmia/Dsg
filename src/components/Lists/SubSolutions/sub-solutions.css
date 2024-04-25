@@ -1,0 +1,38 @@
+.item {
+  position: relative;
+  margin-bottom: 20px;
+  z-index: 0;
+  display: inline-block;
+  background: white;
+  width: 100%;
+  padding: 30px 30px 10px;
+}
+
+
+
+
+/* title  */
+.item_title {
+  font: 900 20px var(--font-satoshi);
+  color: var(--black-light);
+  padding-bottom: 5px;
+
+}
+
+.item_content {
+  color: var(--ass);
+  font: 400 14px var(--font-satoshi);
+  padding-bottom: 30px;
+}
+
+
+
+.item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 5px;
+  background: var(--secondary);
+}

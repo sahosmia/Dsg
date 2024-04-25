@@ -4,7 +4,7 @@ import { BottomBannerType } from "../../types";
 
 const BottomBanner = ({bg, title, btnText, url}:BottomBannerType) => {
   return (
-    <section className="py-20">
+    <section className="pb-20">
       <div className="container">
         <div
           className="bottom-banner"

@@ -3,7 +3,7 @@
   margin-bottom: 20px;
   padding:  0px;
   transition: ease-in-out 0.3s;
-  z-index: 1;
+  z-index: 0;
   display: inline-block;
   background: white;
   width: 100%;

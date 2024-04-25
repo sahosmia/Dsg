@@ -8,6 +8,7 @@ import {
 import { useParams } from "react-router-dom";
 import { getCapabilityItem } from "../util";
 import { HelpImage } from "../resource/image";
+import SubSolutionsList from "../components/Lists/SubSolutions/SubSolutionsList";
 
 const CapabilitiesDetailsPage = () => {
   const { solutionId } = useParams();
@@ -17,7 +18,6 @@ const CapabilitiesDetailsPage = () => {
       <Helmet>
         <title>Details - {process.env.REACT_APP_NAME}</title>
       </Helmet>
-
 
       <HeroIndustryCapability
         bg={data.banner}
@@ -29,7 +29,8 @@ const CapabilitiesDetailsPage = () => {
       />
 
       <HelpSection />
-      <OurFirmLeaderShip quantity={4}/>
+      <SubSolutionsList items={data.solutionList} title={data.title} />
+      <OurFirmLeaderShip quantity={4} />
     </>
   );
 };

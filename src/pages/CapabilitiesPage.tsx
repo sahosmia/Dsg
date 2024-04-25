@@ -28,7 +28,7 @@ const CapabilitiesPage = () => {
                   industries."
       />
 
-      <section className="pt-20">
+      <section className="py-20">
         <div className="container">
           <CapabilityList />
         </div>

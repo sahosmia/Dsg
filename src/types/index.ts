@@ -2,6 +2,22 @@ import { ReactNode } from "react";
 
 export type HeroIndustryType = { bg: string; title: string; content: string };
 
+export type SubSolutionItemType = {
+  item: {
+    id: number;
+    title: string;
+    content: string;
+  };
+};
+export type SubSolutionItemListType = {
+  items: {
+    id: number;
+    title: string;
+    content: string;
+  }[];
+  title:string
+};
+
 export type LeaderShipItemType = {
   leaderShip: {
     id: number;

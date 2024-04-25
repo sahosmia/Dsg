@@ -81,6 +81,7 @@
 
 .bg-body-tertiary {
   background-color: transparent !important;
+  border-bottom: 1px solid #ffffff36;
 }
 
 @media (max-width: 575.98px) {
