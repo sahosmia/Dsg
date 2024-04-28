@@ -15,6 +15,9 @@
   outline: 0;
   font-family: var(--font-satoshi);
 }
+body{
+  position: relative;
+}
 p {
   margin-bottom: 0;
 }
@@ -267,22 +270,7 @@ padding-bottom: 0;
   left: 0;
 }
 
-.home-hero {
-  background-image: url("./assets/hero/home.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
 
-.hero-heading {
-  font-size: clamp(3rem, 8vw, 64px);
-  font-weight: 900;
-  color: var(--white);
-  text-transform: capitalize;
-  font-family: var(--font-satoshi);
-  padding: 400px 0;
-  line-height: 1.2;
-}
 
 .hero-industry {
   padding: 300px 0 180px;
@@ -303,35 +291,7 @@ padding-bottom: 0;
   line-height: 24px;
 }
 
-/* Extra Small Devices (phones) */
-@media (max-width: 575.98px) {
-  /* CSS styles for extra small devices go here */
- 
-  .hero-heading {
-    padding-top: 200px;
-    padding-bottom: 180px;
-    margin: 0 auto;
-  }
 
-
-}
-
-/* Small Devices (landscape phones) */
-@media (min-width: 576px) {
-  /* CSS styles for small devices go here */
-}
-
-
-
-/* Large Devices (desktops) */
-@media (min-width: 992px) {
-  /* CSS styles for large devices go here */
-  .hero-heading {
-    width: 80%;
-    padding-top: 300px;
-    padding-bottom: 300px;
-  }
-}
 
 
 /*=========== Buttton  ============*/
@@ -408,4 +368,22 @@ padding-bottom: 0;
   100% {
     clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 0)
   }
+}
+
+
+
+.overly-test{
+  position: relative;
+  z-index: 0;
+}
+
+.overly-test::after{
+  /* background: red; */
+  content: "";
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);  z-index: -2;
 }

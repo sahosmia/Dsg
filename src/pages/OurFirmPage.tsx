@@ -8,19 +8,14 @@ import {
 } from "../resource/component";
 
 import { leaderShips } from "../data/dummy";
-import useLoading from "../hook/useLoading";
-import Loading from "../components/Loading";
+import { motion } from "framer-motion";
+import { downVariants } from "../motion-variants";
+
+
 
 const OurFirmPage = () => {
- const {isLoading} = useLoading();
-
-  if (isLoading) {
-    return <Loading/>;
-  }
-
   return (
     <>
-      
       <Helmet>
         <title>Our Firm - {process.env.REACT_APP_NAME}</title>
       </Helmet>
@@ -28,7 +23,7 @@ const OurFirmPage = () => {
       <Counter />
       <OurFirmContent />
       <OurFirmQuite />
-      <OurFirmLeaderShip quantity={leaderShips.length}/>
+      <OurFirmLeaderShip quantity={leaderShips.length} />
       <CorporateResponsibility />
       <Cta title="Our Solutions" btnText="View Solutions" url="#" />
     </>
@@ -41,15 +36,27 @@ const OurFirmContent = () => {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <p className="pb-5 fw-medium font-18 ass-color">
+            <motion.p
+              className="pb-5 fw-medium font-18 ass-color"
+              variants={downVariants}
+              initial="initial"
+              whileInView="animate"
+              viewport={{ once: true }}
+            >
               Our mission is to harness the power of technology to drive growth
               and success for our clients. With a team of experienced
               professionals and a commitment to excellence, we deliver
               cutting-edge solutions that solve complex problems and improve
               efficiency across a range of industries.
-            </p>
+            </motion.p>
 
-            <p className="pb-5 fw-medium font-18 ass-color">
+            <motion.p
+              className="pb-5 fw-medium font-18 ass-color"
+              variants={downVariants}
+              initial="initial"
+              whileInView="animate"
+              viewport={{ once: true }}
+            >
               At DSG, we offer a comprehensive suite of services, including web
               design and development, mobile application development, software
               development, digital marketing, and IT consulting. Our expertise
@@ -58,9 +65,15 @@ const OurFirmContent = () => {
               clients to understand their objectives, and then leverage our
               technical expertise and industry experience to deliver exceptional
               results.
-            </p>
+            </motion.p>
 
-            <p className="fw-medium font-18 ass-color">
+            <motion.p
+              className=" fw-medium font-18 ass-color"
+              variants={downVariants}
+              initial="initial"
+              whileInView="animate"
+              viewport={{ once: true }}
+            >
               Our approach is driven by a relentless focus on quality,
               innovation, and customer satisfaction. We are passionate about
               staying on the forefront of emerging technologies and trends, and
@@ -70,7 +83,7 @@ const OurFirmContent = () => {
               difference through our work. We take pride in being a trusted
               partner in our clients' success, and look forward to the
               opportunity to help them achieve their goals.
-            </p>
+            </motion.p>
           </div>
         </div>
       </div>
@@ -80,7 +93,12 @@ const OurFirmContent = () => {
 
 const OurFirmQuite = () => {
   return (
-    <section data-aos="fade-up" >
+    <motion.section
+      variants={downVariants}
+      initial="initial"
+      whileInView="animate"
+      viewport={{ once: true }}
+    >
       <div className="container">
         <div className="our-firm-quite">
           <div className="row">
@@ -94,7 +112,7 @@ const OurFirmQuite = () => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

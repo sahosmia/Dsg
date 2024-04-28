@@ -1,5 +1,5 @@
-import counterStyle from "./Counter.module.css";
-import CountUp from 'react-countup';
+import "./counter.css";
+import CountUp from "react-countup";
 
 const Counter = () => {
   return (
@@ -7,9 +7,16 @@ const Counter = () => {
       <div className="container">
         <div className="row gap-4 gap-lg-0">
           {counters.map((c) => (
-            <div key={c.title} className={`col-lg-3 ${counterStyle.item}`}>
-              {/* <h5>{c.count}+</h5> */}
-              <CountUp className={counterStyle.counter_number}  end={c.count} duration={3}></CountUp>
+            <div key={c.title} className="col-lg-3 counter-item">
+              <div>
+                <CountUp
+                  className="counter_number"
+                  end={c.count}
+                  duration={2}
+                ></CountUp>{" "}
+                <span className="counter_number">+</span>
+              </div>
+
               <span>{c.title}</span>
             </div>
           ))}

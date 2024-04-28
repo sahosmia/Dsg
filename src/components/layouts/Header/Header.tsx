@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import { WhiteLogo } from "../../../resource/image";
-import "./header.css"
+import "./header.css";
 import { industries, solutions } from "../../../data/dummy";
+import { motion } from "framer-motion";
 
 const Header = () => {
   return (
@@ -55,28 +56,29 @@ const Header = () => {
                 >
                   Capabilities
                 </Link>
-                <ul className="dropdown-menu ">
-                  <div
-                    className="d-flex flex-column flex-wrap flex-lg-row "
-                  >
-                    
-                    {solutions.map(item=>(
+                <motion.ul className="dropdown-menu" initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1}}>
+                  <div className="d-flex flex-column flex-wrap flex-lg-row ">
+                    {solutions.map((item) => (
                       <li key={item.id} className="w-50">
-                      <Link className="dropdown-item" to={`/capabilities/${item.id}`}>
-                        {item.title}
-                      </Link>
-                    </li>
+                        <Link
+                          className="dropdown-item"
+                          to={`/capabilities/${item.id}`}
+                        >
+                          {item.title}
+                        </Link>
+                      </li>
                     ))}
-                   
-                    
+
                     <li className="w-50">
-                      <Link className="dropdown-item view-all" to="/capabilities">
+                      <Link
+                        className="dropdown-item view-all"
+                        to="/capabilities"
+                      >
                         View All Capabilities
                       </Link>
                     </li>
-               
                   </div>
-                </ul>
+                </motion.ul>
               </li>
 
               <li className="nav-item dropdown">
@@ -90,30 +92,33 @@ const Header = () => {
                   Industries
                 </Link>
                 <ul className="dropdown-menu ">
-                  <div
-                    className="d-flex flex-column flex-wrap flex-lg-row "
-                  >
-                    {industries.map(item=>(
+                  <div className="d-flex flex-column flex-wrap flex-lg-row ">
+                    {industries.map((item) => (
                       <li key={item.id} className="w-50">
-                      <Link className="dropdown-item" to={`/industries/${item.id}`}>
-                        {item.title}
-                      </Link>
-                    </li>
+                        <Link
+                          className="dropdown-item"
+                          to={`/industries/${item.id}`}
+                        >
+                          {item.title}
+                        </Link>
+                      </li>
                     ))}
-                                      
+
                     <li className="w-50">
                       <Link className="dropdown-item view-all" to="/industries">
                         View All Industries
                       </Link>
                     </li>
-                    
                   </div>
                 </ul>
               </li>
 
               {/* header contact button  */}
               <li className="nav-item d-none d-lg-block">
-                <Link to="/contact-us" className="nav-link header-contact-button">
+                <Link
+                  to="/contact-us"
+                  className="nav-link header-contact-button"
+                >
                   Contact
                 </Link>
               </li>

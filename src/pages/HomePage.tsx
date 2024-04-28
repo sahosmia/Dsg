@@ -11,11 +11,11 @@ import Loading from "../components/Loading";
 
 const HomePage = () => {
 
-const {isLoading} = useLoading();
+// const {isLoading} = useLoading();
 
-  if (isLoading) {
-    return <Loading/>;
-  }
+//   if (isLoading) {
+//     return <Loading/>;
+//   }
 
   return (
     <>
