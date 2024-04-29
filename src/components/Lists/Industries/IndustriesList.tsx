@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { industries } from "../../../data/dummy";
 import { IndustrieItemType } from "../../../types";
 import industriesStyle from "./Industries.module.css";
+import ListItem from "../ListItem";
 
 const IndustriesList = () => {
   return (
@@ -15,7 +16,7 @@ const IndustriesList = () => {
 
 const InsudtriesItem = ({ industrie }: IndustrieItemType) => {
   return (
-    <div className="col-md-6 col-xl-4">
+    <ListItem classList="col-md-6 col-xl-4">
       <Link to={`/industries/${industrie.id}`} className={industriesStyle.item}>
         <img className="w-100" src={industrie.image} alt="" />
 
@@ -23,7 +24,7 @@ const InsudtriesItem = ({ industrie }: IndustrieItemType) => {
           <span className={industriesStyle.title} >{industrie.title}</span>
         </div>
       </Link>
-    </div>
+    </ListItem>
   );
 };
 

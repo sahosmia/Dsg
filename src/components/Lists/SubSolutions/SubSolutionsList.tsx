@@ -1,6 +1,7 @@
 import "./sub-solutions.css";
 import { SubSolutionItemListType, SubSolutionItemType } from "../../../types";
 import SectionHeadingContent from "../../tools/SectionHeadingContent";
+import ListItem from "../ListItem";
 
 const SubSolutionsList = ({ items, title }: SubSolutionItemListType) => {
   return (
@@ -22,12 +23,12 @@ const SubSolutionsList = ({ items, title }: SubSolutionItemListType) => {
 
 const SubSolutionItem = ({ item }: SubSolutionItemType) => {
   return (
-    <div className="col-md-6 col-xl-4">
+    <ListItem classList="col-md-6 col-xl-4">
       <div className="item">
         <h2 className="item_title">{item.title}</h2>
         <p className="item_content">{item.content}</p>
       </div>
-    </div>
+    </ListItem>
   );
 };
 

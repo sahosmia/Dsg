@@ -1,6 +1,8 @@
+import { leftVariants } from "../../motion-variants";
 import { HeroIndustryType } from "../../types";
+import { motion } from "framer-motion";
 
-const HeroIndustry = ({bg, title, content}:HeroIndustryType) => {
+const HeroIndustry = ({ bg, title, content }: HeroIndustryType) => {
   return (
     <section className=" position-relative ">
       <div
@@ -16,13 +18,19 @@ const HeroIndustry = ({bg, title, content}:HeroIndustryType) => {
         <div className="overlay-simple">
           <div className="container">
             <div className="row">
-              <div className="col-lg-9 hero-industry">
+              <motion.div
+                className="col-lg-9 hero-industry"
+                variants={leftVariants}
+                initial="initial"
+                whileInView="animate"
+                viewport={{ once: true }}
+              >
                 <h1 className="hero-small-heading text-center text-lg-start">
                   {title}
                 </h1>
 
                 <p className="hero-p text-center text-lg-start">{content}</p>
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>

@@ -6,8 +6,6 @@ import {
   SolutionsExploreHome,
 } from "../resource/component";
 import { Helmet } from "react-helmet-async";
-import useLoading from "../hook/useLoading";
-import Loading from "../components/Loading";
 
 const HomePage = () => {
 

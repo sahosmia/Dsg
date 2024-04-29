@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
-import "./bottom-banner.css"
+import "./bottom-banner.css";
 import { BottomBannerType } from "../../types";
+import { motion } from "framer-motion";
+import { leftVariants } from "../../motion-variants";
 
-const BottomBanner = ({bg, title, btnText, url}:BottomBannerType) => {
+const BottomBanner = ({ bg, title, btnText, url }: BottomBannerType) => {
   return (
     <section className="pb-20">
       <div className="container">
@@ -15,10 +17,17 @@ const BottomBanner = ({bg, title, btnText, url}:BottomBannerType) => {
             backgroundRepeat: "no-repeat",
           }}
         >
-          <h3>{title}</h3>
-          <Link to={url} className="header-contact-button">
-            {btnText}
-          </Link>
+          <motion.div
+            variants={leftVariants}
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}
+          >
+            <h3>{title}</h3>
+            <Link to={url} className="header-contact-button">
+              {btnText}
+            </Link>
+          </motion.div>
         </div>
       </div>
     </section>

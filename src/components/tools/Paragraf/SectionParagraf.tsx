@@ -1,9 +1,19 @@
-import { ChildrenType } from '../../../types'
+import { downVariants } from "../../../motion-variants";
+import { ChildrenType } from "../../../types";
+import { motion } from "framer-motion";
 
-const SectionParagraf = ({children}:ChildrenType) => {
+const SectionParagraf = ({ children }: ChildrenType) => {
   return (
-    <p className='section-paragraf'>{children}</p>
-  )
-}
+    <motion.p
+      className="section-paragraf"
+      variants={downVariants}
+      initial="initial"
+      whileInView="animate"
+      viewport={{ once: true }}
+    >
+      {children}
+    </motion.p>
+  );
+};
 
-export default SectionParagraf
+export default SectionParagraf;

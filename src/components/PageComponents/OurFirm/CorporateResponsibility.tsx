@@ -3,10 +3,12 @@ import SectionHeading from "../../tools/Heading/SectionHeading";
 import Corporate1 from "../../../assets/corporate/1.png";
 import Corporate2 from "../../../assets/corporate/2.png";
 import Corporate3 from "../../../assets/corporate/3.png";
+import { motion } from "framer-motion";
+import { downVariants } from "../../../motion-variants";
 
 const CorporateResponsibility = () => {
   return (
-    <section data-aos="fade-up"  className="light-white-bg py-20">
+    <section data-aos="fade-up" className="light-white-bg py-20">
       <div className="container">
         <div className="row pb-3">
           <SectionHeading>Corporate Responsibility</SectionHeading>
@@ -14,7 +16,14 @@ const CorporateResponsibility = () => {
 
         <div className="row corporate-responsibility gap-4 gap-md-0">
           {data.map((item) => (
-            <div key={item.id} className="col-md-6 col-xl-4">
+            <motion.div
+              key={item.id}
+              className="col-md-6 col-xl-4"
+              variants={downVariants}
+              initial="initial"
+              whileInView="animate"
+              viewport={{ once: true }}
+            >
               <div className="bg-white">
                 <img className="w-100" src={item.image} alt="" />
                 <div className="p-4">
@@ -22,7 +31,7 @@ const CorporateResponsibility = () => {
                   <p>{item.content}</p>
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
